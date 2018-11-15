@@ -67,8 +67,8 @@ Options:
 	--file FILE, -f FILE	%s
 	--path PATH		%s
 	--header HEADER		%s
-	--help, -h		%s
 	--version, -v		%s
+	--help, -h		%s
 `
 
 func (c *CLI) parseFlags(args []string) *options {
